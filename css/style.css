@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    background-color: rgb(214, 205, 205);
+
+}
+
+.header-content{
+    background-image: url(../img/bg-2.jpg);
+    background-size:cover;
+    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.header-content ol{
+    float: right;
+}
+
+.header-content li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: gray;
+    padding: 10px;
+    border: solid 2px rgb(180, 173, 173);
+    border-radius: 10px;
+}
+
+.header-content ol > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.header-content h1{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.header-content h4{
+    color: white;
+    margin-top: 50px;
+    background-color: rgb(12, 12, 12);
+    width: 350px;
+    text-align: center;
+    opacity: 0.5;
+    padding: 10px;
+    border-bottom: solid 3px;
+    margin-left: 487px;
+    border-radius: 10px;
+}
+
+.content-main{
+    margin-top: 16px;
+    width: 92%;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1{
+    margin-left: 130px;
+    margin-right: 146px;
+    border: solid 10px white;
+}
+
+.section-2{
+    margin-top: 16px;
+    margin-left: 130px;
+    margin-right: 146px;
+    border: solid 10px white;
+}
+
+ul > li{
+    display: inline-block;
+}
+
+.card-1{
+    margin-right: 16px;
+    background-color: rgb(39, 38, 38);
+}
+
+.card-1 h4{
+    text-align: left;
+    color: white;
+    padding: 10px;
+}
+
+.card-2{
+    margin-right: 16px;
+    background-color: rgb(39, 38, 38);
+}
+.card-2 h4{
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+.card-3{
+    background-color: rgb(39, 38, 38);
+}
+
+.card-3 h4{
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+.card-4{
+    background-color: white;
+}
+.section-2 h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:16px;
+    border-bottom: 1px solid gray;
+    background-color: rgb(221, 210, 210);
+}
+
+.card-4 p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+footer p{
+    text-align: center;
+    background-color: gray;
+    padding: 35px;
+    color: white;
+    font-style: italic;
+}
